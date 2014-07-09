@@ -1,0 +1,122 @@
+/* General Styles */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import 'variables';
+@import 'compass';
+
+a {
+  text-decoration: none;
+  
+}
+
+section {
+  overflow: hidden;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.visuallyHidden {
+  height: 0;
+  width: 0;
+  font-size: 0;
+  clip: rect(0,0,0,0);
+  position: absolute;
+}
+
+/* site custom styles */
+
+.page-container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slide1 {
+
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+header {
+  height: 100px;
+  margin-top: 100px;
+  
+}
+
+.brand {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: inline-block;
+  .logo__media {
+    vertical-align: bottom;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+
+.primary-navigation{
+  text-align: right;
+  margin: 35px 0;
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px 10px ;
+    margin: 0 5px;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 350px; 
+
+    &:hover {
+      color: $ice-blue;
+      background-color: #fff; 
+      text-decoration: none;
+    }
+  }
+}
+
+.slide-slicer-bottom {
+  
+  position: absolute;
+  bottom: 0;
+  img {
+    width: 100%;
+  }
+}
+
+.slide-slicer-top {
+  
+  position: absolute;
+  bottom: -150px;
+  z-index: 1;
+  img {
+    width: 100%;
+  }
+}
+
+
+/* Slide2  */
+
+.slide2 {
+  height: 300px;
+  background-color: #fff;
+  position: relative;
+}
+
+ /* slide3  */
+.slide3 {
+  height: 600px;
+  background-color: #fff;
+  position: relative;
+  background: url('../img/bg-texture2.jpg') fixed top center; 
+}
