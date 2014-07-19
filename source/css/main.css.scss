@@ -124,7 +124,7 @@ header {
  /* slide3  */
 .slide3 {
   padding-top: 12%;
-  height: 600px;
+  height: 700px;
   background-color: #fff;
   position: relative;
   background: url('../img/bg-texture2.jpg') fixed top center; 
@@ -219,4 +219,18 @@ header {
     font-size: 40px;
     padding: 10px 20px;
   }
+}
+
+.about-content {
+  padding-left: 2%;
+}
+
+p {
+  font-size: 18px;
+}
+.key-features {
+  font-size: 18px;
+}
+.chat-download {
+  margin-top: 10%;
 }

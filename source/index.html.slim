@@ -3,54 +3,75 @@ title: Welcome to Minion Chat
 ---
 section.slide1
   header
-    .page-container.row-fluid
-      .col-md-4
-        h1.brand
-          a.logo href="#"
-            img.logo__media src="img/logo.png" alt="Logo of Minion Chat"
-          span.visuallyHidden
-            | Minion Chat
-      .col-md-8
-        nav.primary-navigation
-          a href="#"
-            | Home
-          a href="#"
-            | Features
-          a href="#"
-            | About Us
-          a href="#"
-            | Contact
+    .page-container
+      .row-fluid
+        .col-md-4
+          h1.brand
+            a.logo href="#"
+              img.logo__media src="img/logo.png" alt="Logo of Minion Chat"
+            span.visuallyHidden
+              | Minion Chat
+        .col-md-8
+          nav.primary-navigation
+            a href="#"
+              | Home
+            a href="#features"
+              | Features
+            a href="#aboutus"
+              | About Us
+            a href="http://dineshswamy.github.io/chatminion/" target="_blank"
+              | Documentation
+            a href="#contact"
+              | Github
+  .page-container.row-fluid.chat-download
+    .col-md-8
+      img src='img/chatminion_logo_transparent.png' alt='chat minon logo'
+    .col-md-4
+      a.download href="https://chrome.google.com/webstore/detail/chat-minion/ggppffbhjobdepilfllgmpojejkeemca" target="_blank"
+        span.visuallyHidden
+          | Download now
+        img src='img/chrome-webstore-icon.png' alt='Download at chrome store'
   .slide-slicer-bottom
     img src="img/tri-white-top.png" alt="triangle image seperator"
 main
-  .slide2
+  .slide2#features
     .page-container.row-fluid
       h3.center-align.feat-header
-        | Features
+        | Why this is different
       .iconed
         .iconed-media.col-md-4
           i.fa.fa-comments-o
         .iconed-body.col-md-8
           p
-            | This ap is going to take over whats app and we chat and viber and we are entering Y combinator list for funding 
+            | Once you send a message, your reciepient will be shown with most possible replies to the message . Chatminion will also prepare an audio message based on the message you send and recieve(Its not just a message read out).
     .slide-slicer-top
       img src="img/tri-white-bot.png" alt="triangle image seperator"
   .slide3
     .page-container.row-fluid
       h3.center-align.feat-header 
-        | Voice Control
+        | Key features
       .iconed
         .iconed-media.col-md-4
           i.fa.fa-microphone
         .iconed-body.col-md-8
           p
-            | This ap is going to take over whats app and we chat and viber and we are entering Y combinator list for funding 
+            ul.key-features 
+              li 
+                | 98% ephemeral , your message flies from one end to the other and dies right there. It gets stored nowhere.
+              li
+                | The application stores only last two messages for threading(to remember the context). 
+              li 
+                | Makes the recurring conversions , really quick .
+              li
+                | Make video calls , the reciepient need not authorize the video call .when you want to talk to your team member , simply hit video call and you are there .
+              li 
+                | Video calls are plugin free and based on Web RTC and it is almost Peer to Peer .
     .slide-slicer-bottom
       img src="img/tri-white-top.png" alt="triangle image seperator"
-  .slide4
+  .slide4#aboutus
     .page-container.row-fluid
       h3.center-align.feat-header
-        | About me
+        | About us
       .flip-container.col-md-4 ontouchstart="this.classList.toggle('hover');"
         .flipper
           .front
@@ -58,17 +79,20 @@ main
           .back
             img.profile-img src='img/developer.jpg' alt='developer image'
       .content.col-md-8
-        | HI I am dinesh swamy im developer of this app  and blah balh
+        p.about-content
+          | My name is dineshswamy . i wrote chatminion along with my friend ganesh .I currently work as a product developer at komparify.com . Chatminion is used extensively in my office .I hope you use it as well. If you find any issues write to us at 
+          a href="mailto:dineshswamy92@gmail.com"
+            | dineshswamy92@gmail.com 
+          | and 
+          a href="mailto:graverine@gmail.com"
+            | graverine@gmail.com 
+          | . If you dont find any issues ,just drop a mail WE'LL DISCUSS ABOUT 
     .slide-slicer-bottom
       img src="img/tri-white-bot.png" alt="triangle image seperator"
-  .slide5
+  .slide5#contact
     .page-container.row-fluid 
       h3.center-align.feat-header
-        | Contact us
+        | Git hub
       .center-align.contact
-        a href='#'
-          i.fa.fa-facebook
-        a href='#'
-          i.fa.fa-twitter
-        a href='#'
+        a href='https://github.com/dineshswamy/chatminion-chrome-app' target="_blank"
           i.fa.fa-github
